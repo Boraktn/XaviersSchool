@@ -1,5 +1,15 @@
 body{
+
     background-color: #10375C;
+    height:100%;
+    
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+html{
+    height: 100%;
+    margin: 0;
 }
 .title{
     font-size:50px;
@@ -11,16 +21,34 @@ h1{
     font-family: sans-serif;
 
 }
+header {
+  display: flex;
+  justify-content: space-between; /* logo sola, menü sağa */
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(90deg, #10375C, #edf0fb);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
 #enroll{
-    padding:10px 25px;
+    padding:28px 9px;
     background-color:#F3C623 ; 
     color:darkblue; 
-    border-radius: 5px; 
+    border-radius: 100px; 
     position: absolute; 
-    right: 15px;
-    font-size:20px;
+    top:20px;
+    right: 4%;
+    font-size:16px;
     font-weight: bold;
     font-family: sans-serif;
+    
 }
 #hdiv{
     border:none;
@@ -38,11 +66,15 @@ h1{
     padding: 8px;
 }
 .div1{
+        margin-top:15px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 15px;
     background-color: #edf0fb;
-    height: max-content;
+    flex:1;
 }
 .sublinks{
     color:#EB8317;
-    text-align:justify;
     margin: 15px;
+    text-decoration: none;
 }
