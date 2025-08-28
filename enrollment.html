@@ -1,56 +1,79 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Enrollment</title>
-                <link rel="stylesheet" href="style.css">  
-
-    </head>
-    <body>
-            <h1><a href="xaviers.html" class="title"> Xavier's School for Gifted Youngsters</a></h1>
-            <hr>
-            <form action="enrollmentpage.php"method="POST">
-                <div>
-                <label for="fname">first name:</label>
-                <input type="text"id="fname" name="fname" placeholder="Jean" required>
-                </div>
-                <br>
-                <div>
-
-                <label for="lname">last name:</label>
-                <input type="text"id="lname" name="lname" placeholder="Grey" required>
-            </div>
-                <br>
-                <div>
-
-                <label for="pass">password:</label>
-                <input type="password" id="pass" name="pass" maxlength="12" minlength="6" required>
-            </div>
-                <br>
-                <div>
-
-                <label for="email">email:</label>
-                <input type="email"id="email" name="email" placeholder="jeangrey@gmail.com" required>
-            </div>
-                <br>
-                <div>
-
-                <label for="bdate">birthdate:</label>
-                <input type="date"id="bdate" name="bdate" required>
-            </div>
-                <br>
-                <div>
-
-                <label for="advisor">advisor:</label>
-                <select id="advisor" name="advisor"> 
-                    <option value="Professor Drake">Professor Drake</option>
-                    <option value="Professor Summers">Professor Summers</option>
-                    <option value="Professor Munroe">Professor Munroe</option>
-                    <option value="Professor Rachel Grey">Professor Rachel  Grey</option>
-                    <option value="Coach Rogue">Coach Rogue</option>
-                </select>
-            </div>
-                <br>
-                <input type="submit">
-            </form>
-    </body>
+  <head>
+    <title>Enrollment</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <h1>
+      <a href="xaviers.html" class="title">
+        Xavier's School for Gifted Youngsters</a
+      >
+    </h1>
+    <hr />
+    <form action="enrollmentpage.php" method="POST">
+      <div>
+        <label for="fname">first name:</label>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Jean"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="lname">last name:</label>
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          placeholder="Grey"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="pass">password:</label>
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          maxlength="12"
+          minlength="6"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="email">email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="jeangrey@gmail.com"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="bdate">birthdate:</label>
+        <input type="date" id="bdate" name="bdate" required />
+      </div>
+      <br />
+      <div>
+        <label for="advisor">advisor:</label>
+        <select id="advisor" name="advisor">
+          <option value="Professor Drake">Professor Drake</option>
+          <option value="Professor Summers">Professor Summers</option>
+          <option value="Professor Munroe">Professor Munroe</option>
+          <option value="Professor Rachel Grey">Professor Rachel Grey</option>
+          <option value="Coach Rogue">Coach Rogue</option>
+        </select>
+      </div>
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
 </html>
