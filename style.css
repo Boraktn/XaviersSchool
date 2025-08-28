@@ -23,9 +23,9 @@ h1{
 }
 header {
   display: flex;
-  justify-content: space-between; /* logo sola, menü sağa */
+  justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   background: linear-gradient(90deg, #10375C, #edf0fb);
   margin-left: 10px;
   margin-right: 10px;
@@ -33,9 +33,13 @@ header {
 header nav ul {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 4rem;
   margin: 0;
   padding: 0;
+}
+.sublinks:hover{
+    background-color: #EB8317;
+    color:#edf0fb;
 }
 #enroll{
     padding:28px 9px;
@@ -49,6 +53,9 @@ header nav ul {
     font-weight: bold;
     font-family: sans-serif;
     
+}
+#enroll:hover{
+    opacity: 0.7;
 }
 #hdiv{
     border:none;
@@ -77,4 +84,5 @@ header nav ul {
     color:#EB8317;
     margin: 15px;
     text-decoration: none;
+    font-size:30px;
 }
